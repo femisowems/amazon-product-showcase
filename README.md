@@ -1,4 +1,4 @@
-# Amazon Product Showcase — v1.7.4
+# Amazon Product Showcase — v1.7.5
 
 > **Under construction.** This plugin was built in November 2026 as interview preparation for an Amazon SDE interview loop. Development is paused — it will be picked up and completed later.
 
@@ -134,3 +134,6 @@ You do **not** need to type the title/price in by hand.
 
 ## v1.7.4
 - Fix: the showcase rendered unstyled inside the Elementor editor preview (the selected style — e.g. Dark Premium — did not show; text ran together, cover unpositioned). Cause: the CSS/JS were only enqueued at render time, which never reaches the Elementor editor canvas. The assets are now registered up front and the widget declares them via get_style_depends() / get_script_depends(), so Elementor loads them in the editor preview and on the front end.
+
+## v1.7.5
+- Elementor Style tab → Product image: new Image alignment control (left / center / right) for the product image, alongside the size and corner-radius sliders. Empty keeps the layout's built-in position.

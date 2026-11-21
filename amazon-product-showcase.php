@@ -2,14 +2,14 @@
 /**
  * Plugin Name: Amazon Product Showcase
  * Description: Showcase any Amazon product on any WordPress page via shortcode or Elementor widget, in 3 selectable styles. The product URL is set in Settings (or per shortcode/widget) — it is not hardcoded. Theme-agnostic.
- * Version: 1.7.4
+ * Version: 1.7.5
  * Author: StarterDev
  * Text Domain: amazon-product-showcase
  */
 
 if (!defined('ABSPATH')) { exit; }
 
-define('APS_VERSION', '1.7.4');
+define('APS_VERSION', '1.7.5');
 
 /* ---------- Product data ----------
    Nothing about a specific product is hardcoded. The URL comes at runtime from,

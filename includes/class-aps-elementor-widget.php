@@ -147,6 +147,25 @@ class APS_Elementor_Widget extends \Elementor\Widget_Base {
                 '{{WRAPPER}} .aps__cover' => 'width: {{SIZE}}{{UNIT}};min-width: {{SIZE}}{{UNIT}};',
             ),
         ));
+        $this->add_control('aps_img_align', array(
+            'label' => __('Image alignment', 'amazon-product-showcase'),
+            'type' => \Elementor\Controls_Manager::CHOOSE,
+            'options' => array(
+                'left' => array('title' => __('Left', 'amazon-product-showcase'), 'icon' => 'eicon-text-align-left'),
+                'center' => array('title' => __('Center', 'amazon-product-showcase'), 'icon' => 'eicon-text-align-center'),
+                'right' => array('title' => __('Right', 'amazon-product-showcase'), 'icon' => 'eicon-text-align-right'),
+            ),
+            'toggle' => true,
+            'description' => __('Align the product image left, center or right. Empty keeps the layout position.', 'amazon-product-showcase'),
+            'selectors' => array(
+                '{{WRAPPER}} .aps__cover' => '{{VALUE}}',
+            ),
+            'selectors_dictionary' => array(
+                'left' => 'float:left;margin:0 20px 10px 0;',
+                'center' => 'float:none;display:block;margin:0 auto 10px;',
+                'right' => 'float:right;margin:0 0 10px 20px;',
+            ),
+        ));
         $this->add_control('aps_img_radius', array(
             'label' => __('Image corner radius', 'amazon-product-showcase'),
             'type' => \Elementor\Controls_Manager::SLIDER,
