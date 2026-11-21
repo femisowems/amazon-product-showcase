@@ -1,4 +1,4 @@
-# Amazon Product Showcase — v1.7.5
+# Amazon Product Showcase — v1.7.6
 
 > **Under construction.** This plugin was built in November 2026 as interview preparation for an Amazon SDE interview loop. Development is paused — it will be picked up and completed later.
 
@@ -137,3 +137,6 @@ You do **not** need to type the title/price in by hand.
 
 ## v1.7.5
 - Elementor Style tab → Product image: new Image alignment control (left / center / right) for the product image, alongside the size and corner-radius sliders. Empty keeps the layout's built-in position.
+
+## v1.7.6
+- Small-screen pass for all nine layouts (480px and under): heroes stack with the cover centred, content columns lose their desktop min-widths so nothing overflows, a max-width guard caps the product image (including sizes set with the Elementor slider), Bento goes single-column, review cards stack, the CTA band stacks, the sticky buy bar compacts, and titles/padding tighten per layout.

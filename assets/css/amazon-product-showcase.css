@@ -270,3 +270,38 @@
 .aps__lb-close{position:absolute;top:18px;right:18px;width:42px;height:42px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;font-size:22px;line-height:1;cursor:pointer}
 .aps__lb-close:hover{background:rgba(255,255,255,.28)}
 .aps--simple .aps__section h3{font-size:19px}
+
+/* ===== Small-screen pass (v1.7.6) — every layout at phone widths ===== */
+@media(max-width:480px){
+.aps{padding:16px}
+.aps__hero{flex-direction:column;align-items:center}
+.aps__main,.aps--editorial .aps__ed-main,.aps__sb-main{min-width:0}
+.aps figure.aps__cover.aps__cover{max-width:100%;min-width:0}
+.aps__title{font-size:23px}
+.aps--showcase{padding:18px}
+.aps--showcase .aps__title{font-size:24px}
+.aps__reviewcards{grid-template-columns:1fr}
+.aps__ctaband{flex-direction:column;align-items:flex-start}
+.aps__ctaband-price{margin-left:0}
+.aps--editorial{padding:18px}
+.aps--editorial .aps__title{font-size:26px}
+.aps--editorial .aps__ed-cover{width:160px;min-width:160px}
+.aps__statstrip{gap:14px}
+.aps--landing{padding:22px 16px}
+.aps--landing .aps__title{font-size:25px}
+.aps__ld-price{font-size:33px}
+.aps--sidebar{padding:20px 16px}
+.aps--sidebar .aps__title{font-size:24px}
+.aps__sp-panel{padding:24px 20px;min-width:0}
+.aps__sp-panel .aps__title{font-size:25px}
+.aps__truststrip>div{min-width:88px}
+.aps--story{padding:22px 16px}
+.aps--story .aps__title{font-size:26px}
+.aps__chapter-num{font-size:32px;min-width:46px}
+.aps__banner{padding:20px 16px}
+.aps__bento{grid-template-columns:1fr}
+.aps__btile--title,.aps__btile--review{grid-column:span 1}
+.aps__btile--img{min-height:190px}
+.aps__stickybar{padding:8px 12px;gap:10px;bottom:10px}
+.aps__stickybar .aps__button{padding:8px 13px;font-size:13.5px}
+}
