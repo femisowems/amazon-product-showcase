@@ -6,6 +6,11 @@
 Showcase any Amazon product on any WordPress page, in your own styling — not Amazon's embed.
 **The product URL is not hardcoded.** Set it once in Settings, or pass it per shortcode/widget.
 
+## Design mockups
+The nine layouts were designed from these mockups. Each is a single self-contained HTML file (images inlined) — the live links below open them in any browser:
+- **One generic product — all 9 layouts:** [Live](https://femisowems.github.io/amazon-product-showcase/mockups/generic-product-all-9-layouts.html) · [File](mockups/generic-product-all-9-layouts.html)
+- **Full-page layout mockups:** [Live](https://femisowems.github.io/amazon-product-showcase/mockups/full-page-layout-mockups.html) · [File](mockups/full-page-layout-mockups.html)
+
 ## Install
 1. WordPress Admin → Plugins → Add New → Upload Plugin → choose `amazon-product-showcase.zip`
 2. Activate
